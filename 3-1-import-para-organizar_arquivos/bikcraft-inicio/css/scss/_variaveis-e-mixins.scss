@@ -1,3 +1,50 @@
+// Cores
 $cor-primaria: #fec63e; // Amarelo
 $preto: #000; // Preto
 $white: #FFF; // Branco
+
+
+@mixin tipo-1($tamanho) {
+    @if $tamanho == 14 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    @else if $tamanho == 18 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    @else if $tamanho == 24 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    @else if $tamanho == 36 {
+        font-size: 36px;
+    }
+    @else if $tamanho == 38 {
+        font-size: 38px;
+    }
+}
+
+
+@mixin tipo-2($tamanho) {
+    font-family: monospace, Georgia, 'Times New Roman', Times, serif;
+
+    @if $tamanho == 14 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    @else if $tamanho == 18 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    @else if $tamanho == 24 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    @else if $tamanho == 36 {
+        font-size: 36px;
+    }
+    @else if $tamanho == 38 {
+        font-size: 38px;
+    }
+}
