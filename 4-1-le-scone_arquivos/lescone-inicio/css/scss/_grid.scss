@@ -1,0 +1,12 @@
+// Variaveis do Grid
+$colunas: 12;
+$gutter: 20px;
+$l-device: 1200px;
+$m-device: 760px;
+$s-device: 480px;
+
+// Box sizing
+// Todos elementos e todos os afters vao usar border box
+*, *::after, *::before {
+    box-sizing: border-box;
+}

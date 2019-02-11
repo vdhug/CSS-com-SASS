@@ -1,0 +1,5 @@
+With source-map on 
+sass --watch scss:css --style expanded
+
+With Source-map off
+sass --no-source-map --watch ./css/scss:css --style expanded
