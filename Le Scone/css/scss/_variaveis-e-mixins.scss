@@ -3,7 +3,7 @@ $bege-claro: #edece4;
 $bege-medio: #cbc6b9;
 $bege-escuro: #988c77;
 $cinza: #2a2426;
-$verde: #988c77;
+$verde: #1ab912;
 
 // Fontes
 $fonte-1: 'PT Mono', monospace;
@@ -31,4 +31,10 @@ $fonte-2: 'Aref Ruqaa', serif;
 		font-size: em(24);
 		line-height: em(30, 24);
 	}
+}
+
+@mixin box-shadow($shadow...) {
+	-webkit-box-shadow: $shadow;
+	-moz-box-shadow: $shadow;
+	box-shadow: $shadow;
 }
